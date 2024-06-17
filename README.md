@@ -83,7 +83,7 @@ training and test data sets.
 
 ![sample_dataset](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/082ed099-6848-49a9-bcc6-86bdb0076508)
 
-** Data Pre-Processing**
+**Data Pre-Processing**
 
 
 The training data of the sign images was taken and was cleaned to make it ready for
@@ -96,8 +96,48 @@ using the internal function present in scikit-learn module. The shape of the tra
 was printed and returned back for the model to consume
 
 
-** Dataset Splitting**
+****Dataset Splitting****
 
 
 30% of the dataset is reserved for testing, while the
 remaining 70% is allocated for training. 
+
+
+**Building Convolutional model**
+
+![Screenshot (19)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/2ab587fa-21fd-4114-a0f1-975727d5f76e)
+CNN_model_summary
+
+**Model Evaluation**
+
+![Screenshot (1)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/e9b2b0c9-e259-4aa2-aaf8-735e87592432)
+
+
+**Creating a GUI using Tkinter**
+
+**Tkinter** is a Python library that serves as the standard GUI (Graphical User Interface) toolkit
+for Python. It allows developers to create desktop applications with graphical interfaces in a
+straightforward and efficient manner. Tkinter is included with most Python installations,
+making it readily available for development without the need for additional installations.
+
+**Enchant** used in Suggestion Generation, Grammar Checking and Correction, Spellchecking
+Across Languages, Customization and Extensibility, Integration with Python Ecosystem.
+We created a graphical user interface (GUI) application using the Tkinter library for sign
+language classification and text-to-speech conversion.
+**Importing Libraries**: The begins by importing necessary libraries, including Tkinter, PIL
+(Python Imaging Library) for image processing, OpenCV (cv2) for computer vision tasks, and
+pyttsx3 for text-to-speech conversion.
+**Loading Pre-trained Model**: It loads a pre-trained deep learning model (`model.h5`) for sign
+language classification using Keras.
+
+
+Defining Functions:
+- `sign_to_text`: Converts sign language frames to text using the loaded model.
+- `text_to_speech`: Converts text to speech using the text-to-speech engine.
+- `start_video_feed` and `stop_video_feed`: Functions to start and stop the video feed from
+the webcam.
+- `clear_text`: Clears the predicted text.
+- `convert_text_to_speech`: Reads text from the textbox and converts it to speech.
+
+- 
+![Screenshot (229)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/e4f188da-4c98-4393-a502-69cb7f94bff3)
