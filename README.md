@@ -73,6 +73,7 @@ and enhance accessibility for users.
 ![sign to speech](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/4aa16e9e-76a3-4859-ad0d-a72a4ed31df7)
 
 
+**Fig:** MODE ARCHITECTURE.
 
 **Getting the Dataset:**
 
@@ -111,7 +112,7 @@ remaining 70% is allocated for training.
 
 ![Screenshot (19)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/2ab587fa-21fd-4114-a0f1-975727d5f76e)
 
-CNN_model_summary
+**Fig:**CNN_model_summary
 
 **Model Evaluation:**
 
@@ -129,9 +130,11 @@ making it readily available for development without the need for additional inst
 Across Languages, Customization and Extensibility, Integration with Python Ecosystem.
 We created a graphical user interface (GUI) application using the Tkinter library for sign
 language classification and text-to-speech conversion.
+
 **Importing Libraries**: The begins by importing necessary libraries, including Tkinter, PIL
 (Python Imaging Library) for image processing, OpenCV (cv2) for computer vision tasks, and
 pyttsx3 for text-to-speech conversion.
+
 **Loading Pre-trained Model**: It loads a pre-trained deep learning model (`model.h5`) for sign
 language classification using Keras.
 
@@ -178,6 +181,9 @@ Fig: Accuracy plot of the model throughout it's training journey
 
 **OUTPUT:**
 
+![Screenshot (4)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/75de75b7-4bb6-48ce-91d0-d7485a56c9d6)
 
-![Screenshot (4)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/3bb60ac0-9732-43c4-b9e8-95aab5209844)
-![Screenshot (3)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/61dca69c-086e-4398-a8ca-911574f8f33d)
+
+![Screenshot (3)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/c48a4d2b-59a1-4994-8f5c-c6617d39d28a)
+
+**Fig:**  Sign to Text and Speech.
