@@ -120,6 +120,7 @@ remaining 70% is allocated for training.
 
 ![Screenshot (1)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/e9b2b0c9-e259-4aa2-aaf8-735e87592432)
 
+**Fig:** Classificatation_report
 
 **Creating a GUI using Tkinter:**
 
@@ -151,6 +152,8 @@ the webcam.
 
 
 ![Screenshot (229)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/e4f188da-4c98-4393-a502-69cb7f94bff3)
+
+**Fig:** GUI OUTPUT
 
 
 **RESULTS AND ANALYSIS**
