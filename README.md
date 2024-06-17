@@ -48,7 +48,7 @@ with lesser complexity to deploy the
 system.
 
 
-**METHODOLOGY USED**
+**METHODOLOGY USED:**
 
 
 The project entails gathering and
@@ -87,7 +87,7 @@ training and test data sets.
 ![sample_dataset](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/082ed099-6848-49a9-bcc6-86bdb0076508)
 
 
-**Data Pre-Processing**
+**Data Pre-Processing:**
 
 
 The training data of the sign images was taken and was cleaned to make it ready for
@@ -100,25 +100,25 @@ using the internal function present in scikit-learn module. The shape of the tra
 was printed and returned back for the model to consume
 
 
-****Dataset Splitting****
+****Dataset Splitting:****
 
 
 30% of the dataset is reserved for testing, while the
 remaining 70% is allocated for training. 
 
 
-**Building Convolutional model**
+**Building Convolutional model:**
 
 ![Screenshot (19)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/2ab587fa-21fd-4114-a0f1-975727d5f76e)
 
 CNN_model_summary
 
-**Model Evaluation**
+**Model Evaluation:**
 
 ![Screenshot (1)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/e9b2b0c9-e259-4aa2-aaf8-735e87592432)
 
 
-**Creating a GUI using Tkinter**
+**Creating a GUI using Tkinter:**
 
 **Tkinter** is a Python library that serves as the standard GUI (Graphical User Interface) toolkit
 for Python. It allows developers to create desktop applications with graphical interfaces in a
@@ -174,3 +174,10 @@ Fig: Loss plot of the model throughout the training journey.
 
 
 Fig: Accuracy plot of the model throughout it's training journey
+
+
+**OUTPUT:**
+
+
+![Screenshot (4)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/3bb60ac0-9732-43c4-b9e8-95aab5209844)
+![Screenshot (3)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/61dca69c-086e-4398-a8ca-911574f8f33d)
