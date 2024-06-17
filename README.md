@@ -66,4 +66,6 @@ iterative refinement and
 optimization, the system aims to
 accurately interpret ASL gestures
 and enhance accessibility for users.
+
+
 ![sign to speech](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/4aa16e9e-76a3-4859-ad0d-a72a4ed31df7)
