@@ -87,6 +87,8 @@ training and test data sets.
 
 ![sample_dataset](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/082ed099-6848-49a9-bcc6-86bdb0076508)
 
+**Fig:** Sample Dataset
+
 
 **Data Pre-Processing:**
 
@@ -112,7 +114,7 @@ remaining 70% is allocated for training.
 
 ![Screenshot (19)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/2ab587fa-21fd-4114-a0f1-975727d5f76e)
 
-**Fig:**CNN_model_summary
+**Fig:** CNN_model_summary
 
 **Model Evaluation:**
 
@@ -171,12 +173,12 @@ achieved an efficiency of 99.88%.
 ![Screenshot (22)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/1b181893-7ade-423a-a416-d3d373353489)
 
 
-Fig: Loss plot of the model throughout the training journey.
+  **Fig:** Loss plot of the model throughout the training journey.
 
 ![Screenshot (23)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/f73d9ae8-8603-4fae-8159-b0202afc05d4)
 
 
-Fig: Accuracy plot of the model throughout it's training journey
+  **Fig:** Accuracy plot of the model throughout it's training journey.
 
 
 **OUTPUT:**
@@ -186,4 +188,4 @@ Fig: Accuracy plot of the model throughout it's training journey
 
 ![Screenshot (3)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/c48a4d2b-59a1-4994-8f5c-c6617d39d28a)
 
-**Fig:**  Sign to Text and Speech.
+  **Fig:**  Sign to Text and Speech.
