@@ -1,5 +1,7 @@
 # Real_time_sign_tranislatation
-#REAL TIME LANGUAGE ASSISTANT FOR SIGN TRANSLATION
+
+
+REAL TIME LANGUAGE ASSISTANT FOR SIGN TRANSLATION
 
 ****ABSTRACT****
 
@@ -71,6 +73,7 @@ and enhance accessibility for users.
 ![sign to speech](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/4aa16e9e-76a3-4859-ad0d-a72a4ed31df7)
 
 
+
 **Getting the Dataset:**
 
 
@@ -82,6 +85,7 @@ training and test data sets.
 
 
 ![sample_dataset](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/082ed099-6848-49a9-bcc6-86bdb0076508)
+
 
 **Data Pre-Processing**
 
@@ -106,6 +110,7 @@ remaining 70% is allocated for training.
 **Building Convolutional model**
 
 ![Screenshot (19)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/2ab587fa-21fd-4114-a0f1-975727d5f76e)
+
 CNN_model_summary
 
 **Model Evaluation**
@@ -161,7 +166,11 @@ achieved an efficiency of 99.88%.
 **Accuracy/Loss Training Plot**
 
 ![Screenshot (22)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/1b181893-7ade-423a-a416-d3d373353489)
-: Loss plot of the model throughout the training journey.
+
+
+Fig: Loss plot of the model throughout the training journey.
 
 ![Screenshot (23)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/f73d9ae8-8603-4fae-8159-b0202afc05d4)
-Accuracy plot of the model throughout it's training journey
+
+
+Fig: Accuracy plot of the model throughout it's training journey
