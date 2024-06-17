@@ -2,7 +2,9 @@
 #REAL TIME LANGUAGE ASSISTANT FOR SIGN TRANSLATION
 
 ****ABSTRACT****
-#Sign language is one of the oldest
+
+
+Sign language is one of the oldest
 and most natural form of language
 for communication, but since most
 people do not know sign language
