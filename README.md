@@ -44,3 +44,26 @@ to find a mix of Image Processing
 and Deep Learning Architecture
 with lesser complexity to deploy the
 system.
+
+
+**METHODOLOGY USED**
+
+
+The project entails gathering and
+preprocessing images of ASL
+gestures, constructing and training a
+CNN model to recognize sign
+language, and developing a
+user-friendly GUI interface for
+seamless translation interaction. The
+CNN architecture is designed to
+extract spatial features from ASL
+images, while the GUI integrates
+with the model backend to facilitate
+real-time translation and ensure an
+intuitive user experience. Through
+iterative refinement and
+optimization, the system aims to
+accurately interpret ASL gestures
+and enhance accessibility for users.
+![sign to speech](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/4aa16e9e-76a3-4859-ad0d-a72a4ed31df7)
