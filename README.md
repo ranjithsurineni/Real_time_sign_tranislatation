@@ -131,7 +131,7 @@ pyttsx3 for text-to-speech conversion.
 language classification using Keras.
 
 
-Defining Functions:
+**Defining Functions:**
 - `sign_to_text`: Converts sign language frames to text using the loaded model.
 - `text_to_speech`: Converts text to speech using the text-to-speech engine.
 - `start_video_feed` and `stop_video_feed`: Functions to start and stop the video feed from
@@ -139,5 +139,29 @@ the webcam.
 - `clear_text`: Clears the predicted text.
 - `convert_text_to_speech`: Reads text from the textbox and converts it to speech.
 
-- 
+
 ![Screenshot (229)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/e4f188da-4c98-4393-a502-69cb7f94bff3)
+
+
+**RESULTS AND ANALYSIS**
+
+
+Our proposed methodology‘s execution has been examined on the test data which was distinct
+from the training data set. The testing process involves 87,000 image samples of different
+hand signals. All these images were simultaneously updated into our proposed model to come
+up with accurate results. Our expected result is to obtain a text which is the translation of the
+sign language given as an input. Our model will anticipate all the hand gestures of the
+American Sign Language. To achieve an efficient result. The estimated accuracy of our
+proposed system is more than 95% even in a multiplex lighting environment which is
+considered an adequate result as of now for real-time interpretation. The entire model pipeline
+is developed by CNN architecture for the classification of 29 classes which 26 are for the
+letters A-Z and 3 classes for SPACE, DELETE and NOTHING. The proposed work has
+achieved an efficiency of 99.88%. 
+
+**Accuracy/Loss Training Plot**
+
+![Screenshot (22)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/1b181893-7ade-423a-a416-d3d373353489)
+: Loss plot of the model throughout the training journey.
+
+![Screenshot (23)](https://github.com/ranjithsurineni/Real_time_sign_tranislatation/assets/118590392/f73d9ae8-8603-4fae-8159-b0202afc05d4)
+Accuracy plot of the model throughout it's training journey
